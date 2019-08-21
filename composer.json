@@ -1,0 +1,26 @@
+{
+    "name": "boostsales/productwarehouse",
+    "description": "Add Order Picking Number for product",
+    "version": "0.1.0",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "require": {
+        "php": "7.0.2|7.0.4|~7.0.6|~7.1.0",
+        "magento/product-community-edition": "2.3.2"
+    },
+    "authors":[
+        {
+            "name": "Newgen Payments pvt. ltd.",
+            "email": "info@newgenpayments.com",
+            "homepage": "https://www.newgenpayments.com/"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Boostsales\\ProductWarehouse\\": ""
+        }
+    }
+}
